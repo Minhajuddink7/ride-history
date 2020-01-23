@@ -1,0 +1,74 @@
+.rideDetails {
+  margin: 40px 50px;
+}
+.rides {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  font-weight: 600;
+}
+.details {
+  display: flex;
+  margin-left: 60px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.date {
+  margin-left: 20px;
+}
+.date > :nth-child(1) {
+  font-weight: normal;
+}
+.price {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.green {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 15px;
+}
+.red {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.small {
+  width: 3px;
+  height: 3px;
+  background-color: grey;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+.circles {
+  display: flex;
+  flex-direction: column;
+}
+.circles div {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.driver {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.imageDiv {
+  position: relative;
+  margin-left: auto;
+}
+.cancel {
+  position: absolute;
+  right: 40px;
+  width: 100px;
+  height: 100px;
+}
